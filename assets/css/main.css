@@ -20,18 +20,19 @@
 
 
 /*--------------------- 0- Global CSS (Start) ---------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap');
 
 :root{
     --purple: #BC8CF2;
-    --yellow : #0bc5e1 ;
+    --yellow : #edb611 ;
     --black: #000000;
     --white: #F7F5F2;
     --grey: #DFDFDE;
 }
 
 *{
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: 0;
@@ -332,7 +333,7 @@ header #menu-btn:hover{
 
 .about .image img{
     width: 100%;
-    border: 1rem solid var(--yellow);
+    border: 0.3rem solid var(--yellow);
 }
 
 .about .content{
@@ -480,23 +481,23 @@ header #menu-btn:hover{
 }
 
  .skill-item.item1 .box:nth-child(1) .progress-bar span{
-    width:95%;
-}
-
- .skill-item.item1 .box:nth-child(2) .progress-bar span{
-    width:90%;
-}
-
- .skill-item.item1 .box:nth-child(3) .progress-bar span{
-    width:85%;
-}
-
-.skill-item.item2 .box:nth-child(1) .progress-bar span{
     width:75%;
 }
 
- .skill-item.item2 .box:nth-child(2) .progress-bar span{
+ .skill-item.item1 .box:nth-child(2) .progress-bar span{
+    width:60%;
+}
+
+ .skill-item.item1 .box:nth-child(3) .progress-bar span{
     width:65%;
+}
+
+.skill-item.item2 .box:nth-child(1) .progress-bar span{
+    width:55%;
+}
+
+ .skill-item.item2 .box:nth-child(2) .progress-bar span{
+    width:45%;
 }
 
  .skill-item.item2 .box:nth-child(3) .progress-bar span{

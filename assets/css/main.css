@@ -698,10 +698,10 @@ header #menu-btn:hover{
 .portfolio-item .content{
     content: '';
     position: absolute;
-    top: 10%;
-    left: 10%;
-    height: 80%;
-    width: 80%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
     border-radius: 0.5rem;
     background-color: rgba(0, 0, 0, 0.8);
     display: -webkit-box;

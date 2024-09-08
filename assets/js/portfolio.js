@@ -7,7 +7,7 @@ $(document).ready(function(){
     
         if (filter == "all"){
             $(".gallery .image").show(400);
-        }
+        }   
         else{
             $(".gallery .image").not("."+filter).hide(200);
             $(".gallery .image").filter("."+filter).show(400);

@@ -40,7 +40,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     border: none;
     outline: none;
     -webkit-transition: all 0.2s linear;
@@ -349,6 +349,13 @@ header #menu-btn:hover{
     color: var(--white);
     padding-bottom: 1rem;
 }
+
+.about .content h4{
+    font-size: 2rem;
+    color: var(--white);
+    padding-bottom: 1rem;
+}
+
 
 .about .content > p{
     font-size: 1.6rem;
@@ -750,6 +757,13 @@ header #menu-btn:hover{
             transition: all 0.4s linear;
 }
 
+.portfolio-item .content .main-title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+
 .portfolio-item .content .view-btn{
     font-size: 2rem;
     color: var(--yellow);
@@ -775,6 +789,8 @@ header #menu-btn:hover{
             transform: translateY(0);
     opacity: 1;
 }
+
+
 
 .portfolio-item:hover .content p{
     -webkit-transform: translateY(0);

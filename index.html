@@ -48,8 +48,9 @@
         <nav class="navbar">
             <a href="#home">HOME</a>
             <a href="#about">ABOUT</a>
-            <a href="#service">Quantum computing </a>
+            <!-- <a href="#service">Quantum computing </a> -->
             <a href="#portfolio">PORTFOLIO</a>
+            <a href="#certificate">Certificates</a>
             <!-- <a href="#testimonial">testimonials</a> -->
             <a href="#blog">BLOGS</a>
             <a href="#contact">CONTACT</a>
@@ -345,7 +346,7 @@
 
 
     <!-------------------- Services Area (Start) -------------------->
-    <section class="service" id="service">
+    <!-- <section class="service" id="service">
 
         <div class="heading">
             <h2>Quantum<span> Computing</span></h2>
@@ -353,11 +354,13 @@
 
         <div class="box-container">
 
-            <div class="service-item">
-                <i class="fas fa-code"></i>
-                <h3>Qiskit</h3>
-                <p>Quantum computing </p>
-            </div>
+            <a href="https://qiskit.org" target="_blank" class="service-link">
+                <div class="service-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Qiskit</h3>
+                    <p>Quantum computing</p>
+                </div>
+            </a>
 
             <div class="service-item">
                 <i class="fas fa-code"></i>
@@ -391,7 +394,7 @@
 
         </div>
 
-    </section>
+    </section> -->
     <!-------------------- Services Area (End) -------------------->
 
 
@@ -399,6 +402,109 @@
     <!-------------------- Portfolio Area (Start) -------------------->
 
 
+
+    <section class="service" id="portfolio">
+
+        <div class="heading">
+            <h2>My <span>Portfolio</span></h2>
+        </div>
+
+        <div class="box-container">
+
+        
+            <div class="service-item">
+                <a href="https://github.com/Thirumalai-97/QML-proj-iitj" target="_blank" class="service-link">
+                <i class="fas fa-cat"></i>
+                <h3>VQC implementation using EstimatorQNN</h3>
+                <p>Custom Ansatz</p>
+            </div>
+
+            <div class="service-item">
+                <a href="https://github.com/Thirumalai-97/QRISE-IBM/" target="_blank" class="service-link">
+                <i class="far fa-satellite"></i>
+                <h3>Dynamic circuit based quantum teleportation</h3>
+                <p>IBM QRise Challenge</p>
+            </div>
+
+           
+         
+            <div class="service-item">
+                <a href=" https://github.com/Thirumalai-97/FML-project-IITJ" target="_blank" class="service-link">
+                <i class="fas fa-file-medical"></i>
+                <h3>Automated Medical Image Diagnostics using QML</h3>
+                <p>QCNN</p>
+            </div>
+
+
+<!--             
+            <div class="service-item">
+                <a href="https://github.com/Thirumalai-97" target="_blank" class="service-link">
+                <i class="fas fa-code"></i>
+                <h3>Quantum Algorithms</h3>
+                <p>implementation</p>
+            </div>
+
+            
+            <div class="service-item">
+                <a href="https://github.com/Thirumalai-97" target="_blank" class="service-link">
+                <i class="fas fa-code"></i>
+                <h3>Evolving Entangled states</h3>
+                <p>in Open Quantum system</p>
+            </div>
+
+
+            <div class="service-item">
+                <a href="https://github.com/Thirumalai-97" target="_blank" class="service-link">
+                <i class="fas fa-code"></i>
+                <h3>QML Models</h3>
+                <p>QGAN, QCNN, QSVM, QGNN, QPCA</p>
+            </div>
+
+            
+            <div class="service-item">
+                <a href="https://github.com/Thirumalai-97" target="_blank" class="service-link">
+                <i class="fas fa-code"></i>
+                <h3>Quantum Optimization </h3>
+                <p>D-Wave Leap models</p>
+            </div>
+
+            <div class="service-item">
+                <a href="https://github.com/Thirumalai-97" target="_blank" class="service-link">
+                <i class="fas fa-code"></i>
+                <h3>Quantum Photonics</h3>
+                <p>Starwberry-fields.ai models</p>
+            </div>
+
+            
+            <div class="service-item">
+                <a href="https://github.com/Thirumalai-97" target="_blank" class="service-link">
+                <i class="fas fa-code"></i>
+                <h3>Quantum Information </h3>
+                <p>QFT, QPE, QPKB</p>
+            </div>
+
+            
+            <div class="service-item">
+                <a href="https://github.com/Thirumalai-97" target="_blank" class="service-link">
+                <i class="fas fa-code"></i>
+                <h3>Bell Violation</h3>
+                <p>Bell Inequality, CHSH Violation</p>
+            </div>
+ -->
+
+           
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+<!-- 
     <section class="portfolio" id="portfolio">
 
         <div class="heading">
@@ -414,24 +520,7 @@
                 <li class="button btn" data-filter="photography">ML and AI</li>
             </ul>
     
-            <div class="box-container">
-    
-                <div class="portfolio-item image web">
-                    <img src="assets/images/Portfolio/vqc.jpg" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>VQC implementation using EstimatorQNN</h4>
-                       
-                        <a href="https://github.com" class="view-btn"><i class="fas fa-code"></i></a>
-
-                        <!-- <a data-effect="mfp-newspaper" href="assets/images/Portfolio/vqc.jpg" class="view-btn"><i class="fas fa-search-plus"></i></a> -->
-
-                        <p>Quantum Machine learning</p>
-
-                        
-                        
-                    </div>
-                </div>
-
+       
     
                 <div class="portfolio-item image web">
                     <img src="assets/images//Portfolio/dc.jpg" alt="Portfolio-Image" />
@@ -439,32 +528,6 @@
                         <h4>Dynamic circuit based quantum teleportation</h4>
                         <p>Quantum algorithms and optimization</p>
                         <a data-effect="mfp-newspaper" href="assets/images//Portfolio/dc.jpg" class="view-btn"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                </div>
-    
-                <div class="portfolio-item image design">
-                    <img src="assets/images/Portfolio/fml.jpg" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>Automated Medical Image Diagnostics using QML</h4>
-                        <p>Quantum Machine learning</p>
-                        <a data-effect="mfp-newspaper" href="assets/images/Portfolio/fml.jpg" class="view-btn"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                </div>
-    
-                <div class="portfolio-item image design">
-                    <img src="assets/images/Portfolio/algo.png" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>Quantum algorithms implementation</h4>
-                        <p>Quantum algorithms and optimization</p>
-                        <a data-effect="mfp-newspaper" href="assets/images/Portfolio/algo.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-item image photography">
-                    <img src="assets/images/Portfolio/mlandai.png" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>ML models </h4>
-                        <p>ML and AI</p>
-                        <a data-effect="mfp-newspaper" href="assets/images/Portfolio/mlandai.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
                     </div>
                 </div>
     
@@ -485,39 +548,7 @@
 
 
 
-    <section class="blog" id="blog">
-
-        <div class="heading">
-            <h2>My <span>Blog</span></h2>
-        </div>
-
-        <div class="swiper-container blog-slider">
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide blog-item">
-                    <div class="image">
-                        <img src="assets/images/Blogs/blog1.jpeg" alt="Blog-Image" />
-                    </div>
-                    <div class="content">
-                        <div class="intro">
-                            <h5><i class="fas fa-calendar-alt"></i><span>Jan 26, 2024</span></h5>
-                            <h5><i class="fas fa-user"></i><span>Thiru</span></h5>
-                        </div>
-                        <a class="main-heading" href="https://medium.com/@thirumalai11049761/once-upon-a-time-in-physics-the-birth-of-quantum-physics-13e727dd8ce1" target="_blank">Once Upon a time in Physics: The Birth of Quantum Physics</a>
-                        <p>This article aims to introduce the origins of quantum 
-                            mechanics in simpler terms without delving too deeply into complex physics.
-                        </p>    
-                        <a href="https://medium.com/@thirumalai11049761/once-upon-a-time-in-physics-the-birth-of-quantum-physics-13e727dd8ce1" target="_blank" class="btn">read more <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-pagination swiper-pagination2"></div>
-
-        </div>
-
-    </section>
+    </section> -->
 
     <!-------------------- Portfolio Area (End) -------------------->
 
@@ -630,6 +661,83 @@
         </div>
     </section> -->
     <!-------------------- Testimonials Area (End) -------------------->
+
+
+
+
+        <!-- My Certificates area starts here -->
+
+        <section class="service" id="certificate">
+
+            <div class="heading">
+                <h2>My <span>Certificates</span></h2>
+            </div>
+    
+            <div class="box-container">
+    
+        
+
+                <div class="service-item">
+                    <a href="https://github.com/Thirumalai-97/My-Certificate/tree/main/IBM" target="_blank" class="service-link">
+                    <i class="fas fa-certificate"></i>
+                    <h3>IBM Qiskit</h3>
+                    <!-- <p>Custom Ansatz</p> -->
+                </div>
+    
+
+                <div class="service-item">
+                    <a href="https://github.com/Thirumalai-97/My-Certificate/tree/main/Pennylane" target="_blank" class="service-link">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Pennylane</h3>
+                    <!-- <p>Custom Ansatz</p> -->
+                </div>
+    
+
+                <div class="service-item">
+                    <a href="https://github.com/Thirumalai-97/My-Certificate/tree/main/QWorld" target="_blank" class="service-link">
+                    <i class="fas fa-certificate"></i>
+                    <h3>QWorld</h3>
+                    <!-- <p>Custom Ansatz</p> -->
+                </div>
+    
+
+                <div class="service-item">
+                    <a href="https://github.com/Thirumalai-97/My-Certificate/tree/main/Womanium" target="_blank" class="service-link">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Womanium</h3>
+                    <!-- <p>Custom Ansatz</p> -->
+                </div>
+    
+
+                <div class="service-item">
+                    <a href="https://github.com/Thirumalai-97/My-Certificate/tree/main/Classiq" target="_blank" class="service-link">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Classiq </h3>
+                    <!-- <p>Custom Ansatz</p> -->
+                </div>
+    
+
+                <div class="service-item">
+                    <a href="https://github.com/Thirumalai-97/My-Certificate/tree/main" target="_blank" class="service-link">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Others</h3>
+                    <!-- <p>Custom Ansatz</p> -->
+                </div>
+    
+
+
+
+            </div>
+    
+        </section>
+    
+    
+    
+            <!-- My Certificates area ends here -->
+
+            
+
+
 
 
 
